@@ -133,18 +133,38 @@ button {
 
 .sign-up{
     display: flex;
+    margin: 5% 20%;
+    background-color: #3882F6;
+    padding: 5% 10%;
+    align-items: center;
+    gap: 32px;
+    color:#E5E7EB;
+    border-radius: 20px;
 }
 
 .sign-up-text{
-
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
 
 .sign-up-main-text{
-
+    font-size: 32px;
+    font-weight: bold;
 }
 
 .sign-up-subtext {
 
+}
+
+.sign-up-button {
+    color: white;
+    background-color: #3882F6;
+    border: 1px solid white;
+    padding: 4px;
+    height: 5%;
+    width: 90px;
+    border-radius: 4px;
 }
 
 
@@ -152,4 +172,12 @@ button {
 .footer {
     background-color: #1F2937;
     color: #E5E7EB;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text {
+    font-style: italic;
 }
